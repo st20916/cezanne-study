@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* Pretendard GOV */
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-Thin.woff) format('woff');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-ExtraLight.woff) format('woff');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-Light.woff) format('woff');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-Regular.woff) format('woff');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-Medium.woff) format('woff');
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-SemiBold.woff) format('woff');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-Bold.woff) format('woff');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-ExtraBold.woff) format('woff');
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(./Pretendard/PretendardGOV-Black.woff) format('woff');
+	font-style: normal;
+	font-weight: 900;
+}
