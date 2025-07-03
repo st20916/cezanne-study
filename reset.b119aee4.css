@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/* Pretendard GOV */
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-Thin.fcfab8b2.woff) format('woff');
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-ExtraLight.2256e48b.woff) format('woff');
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-Light.912ccf8d.woff) format('woff');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-Regular.f8bc171f.woff) format('woff');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-Medium.8bac8bf8.woff) format('woff');
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-SemiBold.b2fbcbc7.woff) format('woff');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-Bold.17933801.woff) format('woff');
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-ExtraBold.ffe38c09.woff) format('woff');
+	font-style: normal;
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Pretendard GOV";
+	src: url(/PretendardGOV-Black.a6e0cf27.woff) format('woff');
+	font-style: normal;
+	font-weight: 900;
+}
+@charset "UTF-8";
+
+html { font-size: 8px; }
+
+body {
+	font-family: "Pretendard GOV", "Noto Sans KR", sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header,
+nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 100%;
+	font: inherit; */
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, menu, nav, section, picture, source {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6 { font-size: inherit; line-height: 1.2; }
+p { font-size: 1rem; line-height: 1.6; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption {
+	text-align: left;
+	font-weight: normal;
+}
+
+a { text-decoration: none; color: inherit; }
+
+img { vertical-align: bottom; }
+img, video, audio { height: auto; max-width: 100%; }
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.sr_only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+#skip {
+	position: relative;
+	z-index: 99;
+}
+
+#skip > a {
+	position: absolute;
+	top: -35px;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 35px;
+	background: #333;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+}
+
+#skip > a:focus, 
+#skip > a:active {
+	top: 0;
+}
+
+input, textarea, select, button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+button, input[type="button"], input[type="submit"] {
+	cursor: pointer;
+}
+
+input:valid, textarea:valid, select:valid {
+	border-color: #008000;
+}
+
+input:invalid, textarea:invalid, select:invalid {
+	border-color: #FF0000;
+}
+
+@media (min-width: 992px) {
+	html { font-size: 9px; }
+}
+
+@media (min-width: 1280px) {
+	html { font-size: 10px; }
+}
+
+/*# sourceMappingURL=/reset.b119aee4.css.map */
