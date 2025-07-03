@@ -8,7 +8,7 @@
 	<body>
 		<div class="sub-wrap">
 			<div class="sub-title">
-				<h1>Position Test</h1>
+				<h1>Position</h1>
 			</div>
 			<div class="sub-contents">
 				<div class="item">
@@ -18,11 +18,39 @@
 						<code>
 							position: relative;
 						</code>
+						<ul>
+							<li><span>원래 위치 기준으로 top, bottom, left, right 값에 따라 결정</span></li>
+							<li><span>위치를 이동하면서 다른 요소에 영향을 주지 않음.</span></li>
+							<li><span>문서 상 원래 위치 그대로 유지</span></li>
+						</ul>
 					</div>
 				</div>
 				<div class="item">
 					<h2>Absolute</h2>
-					<div></div>
+					<div>
+						<p>부모 요소를 기준으로 배치 (단, 부모에 relative가 없을 경우, body가 기준)</p>
+						<code>
+							position: absolute;
+						</code>
+					</div>
+				</div>
+				<div class="item">
+					<h2>fixed</h2>
+					<div>
+						<p>viewport 기준</p>
+						<code>
+							position: fixed;
+						</code>
+					</div>
+				</div>
+				<div class="item">
+					<h2>sticky</h2>
+					<div>
+						<p>scroll 영역 기준 배치</p>
+						<code>
+							position: fixed;
+						</code>
+					</div>
 				</div>
 			</div>
 		</div>
