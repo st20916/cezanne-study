@@ -11,7 +11,7 @@
 	height: 100vh;
 }
 
-#aside .aside-logo { height: var(--logo-height); background-color: #333333; }
+#aside .aside-logo { height: auto; background-color: #333333; }
 #aside .aside-logo > a {
 	display: block;
 	width: 100%;
@@ -65,4 +65,5 @@
 @media (min-width: 992px) {
 	.study-wrap { grid-template-columns: 35rem auto; }
 	.study-wrap #aside { box-shadow: 0 3px 6px rgba(0, 0, 0, .16); }
+	#aside .aside-content { height: var(--logo-height); }
 }
