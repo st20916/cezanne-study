@@ -28,5 +28,12 @@
 	color: #666666;
 }
 
+.sub-wrap .sub-contents .item div { padding: 2rem 0; }
+.sub-wrap .sub-contents .item div * + * { margin-top: 1rem; }
 .sub-wrap .sub-contents .item div > p { font-size: 1.6rem; }
-.sub-wrap .sub-contents .item div > code { font-family: monospace; }
+.sub-wrap .sub-contents .item div > code {
+	padding: .2rem .5rem;
+	background-color: #f0f0f0;
+	font-family: monospace;
+	color: #ff0000;
+}

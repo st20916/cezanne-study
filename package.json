@@ -1,6 +1,8 @@
 {
 	"name": "basic-javascript",
 	"version": "1.0.0",
+	"private": true,
+	"homepage": "https://st20916.github.io/cezanne-study/",
 	"scripts": {
 		"dev": "parcel index.html",
 		"build": "parcel build index.html",
