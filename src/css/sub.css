@@ -27,3 +27,6 @@
 	font-size: 1.8rem;
 	color: #666666;
 }
+
+.sub-wrap .sub-contents .item div > p { font-size: 1.6rem; }
+.sub-wrap .sub-contents .item div > code { font-family: monospace; }
