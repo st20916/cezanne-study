@@ -22,7 +22,7 @@
 	line-height: var(--logo-height);
 }
 
-#aside .aside-content { height: calc(100vh - var(--logo-height)); padding: 1.5rem; }
+#aside .aside-content { height: auto; padding: 1.5rem; }
 #aside .aside-content .content-item ~ .content-item { margin-top: 1.5rem; }
 #aside .aside-content .item-title {
 	position: relative;
@@ -65,6 +65,7 @@
 @media (min-width: 992px) {
 	.study-wrap { grid-template-columns: 35rem auto; }
 	.study-wrap #aside { box-shadow: 0 3px 6px rgba(0, 0, 0, .16); }
+	#aside .aside-content { height: calc(100vh - var(--logo-height)); }
 }
 
 /*# sourceMappingURL=/main.1603664a.css.map */

@@ -24,14 +24,29 @@
 							<li><span>문서 상 원래 위치 그대로 유지</span></li>
 						</ul>
 					</div>
+					<div class="example">
+						<h2 class="example-title">relative 예시</h2>
+						<div class="grand-parent">
+							<div class="parent">
+								<div class="child">1</div>
+								<div class="child relative">2</div>
+								<div class="child">3</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="item">
 					<h2>Absolute</h2>
 					<div>
-						<p>부모 요소를 기준으로 배치 (단, 부모에 relative가 없을 경우, body가 기준)</p>
+						<p>부모 요소를 기준으로 배치 (단, 부모에 position이 없을 경우, body가 기준)</p>
 						<code>
 							position: absolute;
 						</code>
+						<ul>
+							<li><span>부모 요소 위치를 기준으로 top, bottom left, right 값에 따라 결정</span></li>
+							<li><span>부모 요소 중 position을 가진 요소가 없으면, body가 기준</span></li>
+							<li><span>문서 상 원래 위치를 잃어버린다.</span></li>
+						</ul>
 					</div>
 				</div>
 				<div class="item">
